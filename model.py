@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import model_from_json
 import pickle
 
-f = open("list.txt","rb")
+f = open("list_row.txt","rb")
 list_row = pickle.load(f)
 
 with open("model_400_epochs.model", 'r') as f:
