@@ -21,5 +21,6 @@ def predict_font(img):
   
   return list_row[np.argmax(pred)]
 
+#sample
 img_pig = Image.open("pig.jpg")
-predict_font(img_pig)
+print(predict_font(img_pig))
